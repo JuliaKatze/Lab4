@@ -1,11 +1,13 @@
-// Lab4.cpp: определяет точку входа для консольного приложения.
-//
-
 #include "stdafx.h"
-
-
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+const int i = 200;
 int main()
 {
-    return 0;
-}
+char s[i]; 
+std::cout « "Please enter your text \n";
+std::cin.getline(s,200);
 
+return 0;
+}
