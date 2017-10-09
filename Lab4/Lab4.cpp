@@ -5,7 +5,7 @@ using namespace std;
 const int i = 200;
 int main()
 {
-char s[i]; 
+char s[i]={0}; 
 std::cout « "Please enter your text \n";
 std::cin.getline(s,200);
 
